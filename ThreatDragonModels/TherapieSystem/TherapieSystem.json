@@ -1,0 +1,26 @@
+{
+  "version": "2.4.1",
+  "summary": {
+    "title": "TherapieSystem",
+    "owner": "Mohamed Ibrahim",
+    "description": "\nEine Webanwendung für digitale Gesundheitsdienste mit drei Benutzergruppen: Therapeut*in, Assistent*in und Patient*in. Patienten können Therapiedaten einsehen. Therapeuten verwalten Therapien. Assistenten verwalten Benutzerdateien. Die Datenbank speichert Therapiedaten.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Therapie DFD",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
