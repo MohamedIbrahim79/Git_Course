@@ -19,6 +19,32 @@
         "cells": [
           {
             "position": {
+              "x": 409.99999999999966,
+              "y": -39.999999999999716
+            },
+            "size": {
+              "width": 670,
+              "height": 570
+            },
+            "attrs": {
+              "label": {
+                "text": "Systemgrenze – Gesundheitsanwendung"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "19a26163-8913-402f-95e5-ad156819c98e",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Systemgrenze – Gesundheitsanwendung",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 90,
               "y": 59
             },
@@ -842,238 +868,6 @@
             }
           },
           {
-            "position": {
-              "x": 910,
-              "y": 80
-            },
-            "size": {
-              "width": 140,
-              "height": 70
-            },
-            "attrs": {
-              "text": {
-                "text": "Therapiedatenbank"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "db577704-d5f8-48f7-b15b-634a787d5ee6"
-                },
-                {
-                  "group": "right",
-                  "id": "d46fbd20-5d7a-4cd3-8c7d-3b4687f9468b"
-                },
-                {
-                  "group": "bottom",
-                  "id": "1f71e3a6-7dd9-4863-9cbd-970ec3cb099a"
-                },
-                {
-                  "group": "left",
-                  "id": "a4278677-e285-416d-895d-b699c3182d18"
-                }
-              ]
-            },
-            "id": "ea1bd011-1a17-4842-b4be-bf05b29360ab",
-            "zIndex": 8,
-            "data": {
-              "type": "tm.Actor",
-              "name": "Therapiedatenbank",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 787.5,
-              "y": 219
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Benutzerdateien"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "db577704-d5f8-48f7-b15b-634a787d5ee6"
-                },
-                {
-                  "group": "right",
-                  "id": "d46fbd20-5d7a-4cd3-8c7d-3b4687f9468b"
-                },
-                {
-                  "group": "bottom",
-                  "id": "1f71e3a6-7dd9-4863-9cbd-970ec3cb099a"
-                },
-                {
-                  "group": "left",
-                  "id": "a4278677-e285-416d-895d-b699c3182d18"
-                }
-              ]
-            },
-            "id": "a39c3a36-6e07-426f-9f19-1a37a379aae4",
-            "zIndex": 9,
-            "data": {
-              "type": "tm.Actor",
-              "name": "Benutzerdateien",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
-            }
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -1201,94 +995,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Authentifizierungsanfrage",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Authentifizierungsanfrage"
-            ],
-            "id": "1b6a6de5-cb4d-43a4-9a67-054c0db71955",
-            "source": {
-              "x": 546,
-              "y": 59
-            },
-            "target": {
-              "cell": "ea1bd011-1a17-4842-b4be-bf05b29360ab",
-              "port": "a4278677-e285-416d-895d-b699c3182d18"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Therapieinformationen",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Therapieinformationen"
-            ],
-            "id": "b01ab4d2-6360-482d-97ec-8e3935a09576",
-            "source": {
-              "x": 566,
-              "y": 159
-            },
-            "target": {
-              "cell": "ea1bd011-1a17-4842-b4be-bf05b29360ab",
-              "port": "a4278677-e285-416d-895d-b699c3182d18"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Benutzerdaten",
               "description": "",
               "outOfScope": false,
@@ -1377,7 +1083,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Abfrageparameter",
+              "name": "Authentifizierungsanfrage",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1389,23 +1095,61 @@
               "threats": []
             },
             "labels": [
-              "Abfrageparameter"
+              "Authentifizierungsanfrage"
             ],
-            "id": "c7ebccb5-ece7-41b0-9c71-cd8f784e729c",
+            "id": "9271559e-f6a7-46c8-94ba-8454cf337815",
             "source": {
-              "x": 566,
-              "y": 455
+              "x": 546,
+              "y": 59
             },
             "target": {
-              "cell": "ea1bd011-1a17-4842-b4be-bf05b29360ab",
-              "port": "1f71e3a6-7dd9-4863-9cbd-970ec3cb099a"
-            },
-            "vertices": [
-              {
-                "x": 880,
-                "y": 340
+              "cell": "b44e30e4-fadd-4b73-8281-a6ac3d6b86d0",
+              "port": "e3f715d8-4ad0-4192-9d1f-152d0c407f1a"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
               }
-            ]
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Therapieinformationen",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Therapieinformationen"
+            ],
+            "id": "10d4db2d-0b7e-4fe5-95e2-ba5f7e0fbe52",
+            "source": {
+              "x": 566,
+              "y": 159
+            },
+            "target": {
+              "cell": "b44e30e4-fadd-4b73-8281-a6ac3d6b86d0",
+              "port": "e3f715d8-4ad0-4192-9d1f-152d0c407f1a"
+            }
           },
           {
             "shape": "flow",
@@ -1447,9 +1191,59 @@
               "y": 305
             },
             "target": {
-              "cell": "a39c3a36-6e07-426f-9f19-1a37a379aae4",
-              "port": "a4278677-e285-416d-895d-b699c3182d18"
+              "cell": "6800f03d-a601-43c6-bd88-b19deeb8724f",
+              "port": "e3f715d8-4ad0-4192-9d1f-152d0c407f1a"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Abfrageparameter",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Abfrageparameter"
+            ],
+            "id": "74e2fe01-4aa0-4ec0-90c2-404a4f29f153",
+            "source": {
+              "x": 566,
+              "y": 444
+            },
+            "target": {
+              "cell": "b44e30e4-fadd-4b73-8281-a6ac3d6b86d0",
+              "port": "cbdb1434-9458-4024-8730-7f8f40b24bd7"
+            },
+            "vertices": [
+              {
+                "x": 910,
+                "y": 380
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1485,10 +1279,10 @@
             "labels": [
               "Therapieergebnisse"
             ],
-            "id": "e0683e0c-427c-479f-bb18-3329a9f90013",
+            "id": "f898cb49-3508-409f-a814-20c980c16f1e",
             "source": {
-              "cell": "ea1bd011-1a17-4842-b4be-bf05b29360ab",
-              "port": "1f71e3a6-7dd9-4863-9cbd-970ec3cb099a"
+              "x": 980,
+              "y": 150
             },
             "target": {
               "cell": "4ae69206-fdad-4070-9ea2-2acdecf3e744",
@@ -1496,10 +1290,416 @@
             },
             "vertices": [
               {
-                "x": 910,
-                "y": 390
+                "x": 940,
+                "y": 420
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Zugriff über Internet",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Zugriff über Internet"
+            ],
+            "id": "426e5d9b-4ed2-4101-b417-a2109d476fbf",
+            "source": {
+              "x": 950,
+              "y": -180
+            },
+            "target": {
+              "x": 830,
+              "y": -50
+            }
+          },
+          {
+            "position": {
+              "x": 910,
+              "y": 80
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Therapiedatenbank"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "adf86703-3273-4be1-a303-e8e8c57476d8"
+                },
+                {
+                  "group": "right",
+                  "id": "14c8425f-0e32-4dbc-b4c6-54b1f0af94d7"
+                },
+                {
+                  "group": "bottom",
+                  "id": "cbdb1434-9458-4024-8730-7f8f40b24bd7"
+                },
+                {
+                  "group": "left",
+                  "id": "e3f715d8-4ad0-4192-9d1f-152d0c407f1a"
+                }
+              ]
+            },
+            "id": "b44e30e4-fadd-4b73-8281-a6ac3d6b86d0",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Store",
+              "name": "Therapiedatenbank",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 765,
+              "y": 219
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Benutzerdateien"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "adf86703-3273-4be1-a303-e8e8c57476d8"
+                },
+                {
+                  "group": "right",
+                  "id": "14c8425f-0e32-4dbc-b4c6-54b1f0af94d7"
+                },
+                {
+                  "group": "bottom",
+                  "id": "cbdb1434-9458-4024-8730-7f8f40b24bd7"
+                },
+                {
+                  "group": "left",
+                  "id": "e3f715d8-4ad0-4192-9d1f-152d0c407f1a"
+                }
+              ]
+            },
+            "id": "6800f03d-a601-43c6-bd88-b19deeb8724f",
+            "zIndex": 12,
+            "data": {
+              "type": "tm.Store",
+              "name": "Benutzerdateien",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 900,
+              "y": -250
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Internet"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "db577704-d5f8-48f7-b15b-634a787d5ee6"
+                },
+                {
+                  "group": "right",
+                  "id": "d46fbd20-5d7a-4cd3-8c7d-3b4687f9468b"
+                },
+                {
+                  "group": "bottom",
+                  "id": "1f71e3a6-7dd9-4863-9cbd-970ec3cb099a"
+                },
+                {
+                  "group": "left",
+                  "id": "a4278677-e285-416d-895d-b699c3182d18"
+                }
+              ]
+            },
+            "id": "86317bef-7d50-449e-8b8f-51910a7eaf9c",
+            "zIndex": 13,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Internet",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
           }
         ]
       }
